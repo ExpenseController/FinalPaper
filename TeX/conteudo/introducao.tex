@@ -1,0 +1,59 @@
+\chapter{INTRODUÇÃO}
+	Os computadores e seus sistemas mudando e evoluindo constantemente, começando em 1945 até 1985 onde eram extremamente grandes e caros, avançando para computadores com microprocessadores de 8, 16, 32, 64 bits e drasticamente compactos, tornando muito mais acessíveis as empresas.
+	
+	Outra evolução que fez total diferença foi o surgimento das redes de computadores de alta velocidade, desde redes locais (LANs) a redes de longa distância (WANs), que permitiram que máquinas de computadores pudessem trocar mensagens e conversar.
+	
+	A computação evoluiu muito, os processadores começaram a ter mais núcleos para aumentar seu poder de processamento com o paralelismo de tarefas, porém um limite foi alcançado e para superá-lo a solução foi dividir para conquistar, sistemas compostos por vários computadores interligados foram criados para aumentar ainda mais o poder computacional, estes sistemas ficaram conhecidos como sistemas distribuídos.
+	
+	Um sistema distribuído consiste em um conjunto de componentes de \textit{softwares} e/ou \textit{hardwares} conectados em uma rede de computadores que são capazes de organizar suas ações somente pela troca de mensagens \cite{Coulouris-2012}. Desta forma, processos são executados simultaneamente em máquinas diferentes, o que aumenta a velocidade do sistema, além de outros fatores como segurança, tolerância a falha, disponibilidade e confiabilidade.
+	
+	Assim como o poder de processamento e a comunicação em redes evoluíram, a virtualização de computadores também. Computadores são passíveis de falha, e substituir uma máquina pode ser extremamente trabalhoso, refazer todas as configurações e alcançar o mesmo estado de uma outra máquina é uma quase uma missão impossível. Manter diversas máquinas ligadas ao mesmo tempo pode ser muito custoso, pela manutenção e inclusive pela possibilidade de haver recursos sobrando que poderiam estar sendo melhor utilizados.
+	
+	A virtualização de computadores surgiu para sanar alguns destes problemas, uma máquina poderia fazer o papel de múltiplas, com heterogeneidade de sistemas operacionais e configurações, além de facilitar sua manutenção, porque todo o sistema e suas configurações ficavam salvas e poderiam ser transportadas ou copiadas para uma nova máquina a qualquer momento.
+	
+	Visto que a virtualização para sistemas distribuídos era vantajosa, este âmbito também evoluiu. Simular todo um sistema operacional pode custar muito caro pois existe desperdício de tempo com processos desnecessários, surgiu então a era dos \textit{containers}. Estes são ambientes de execução criados para um programa específico, criando um ambiente computacional somente com o necessário para sua execução, tornando sua execução muito mais rápida e segura.
+	
+\section{PROBLEMATIZAÇÃO}
+	Sistemas distribuídos são executados em múltiplas máquinas e portanto podem apresentar falha parcial, onde um dos componentes apresenta problemas enquanto os outros continuam funcionando normalmente. Alguns componentes podem ser afetados por esta falha e outros não, porém de forma alguma o sistema como um todo pode parar de executar, ele deve ser capaz de tolerar este problema e recuperar-se do mesmo.
+	
+	Há forte relação entre ser tolerante a falha e os denominados sistemas confiáveis \cite{Tanenbaum}. Ao planejar um sistema distribuído os seguintes requisitos devem ser levantados: Disponibilidade, Confiabilidade e Segurança. Em outras palavras deve ficar garantido que o sistema poderá ser utilizado a qualquer momento, que este trará respostas corretas e que deverá executar todos os procedimentos sem apresentar falhas para o usuário final.
+	
+\subsection{Solução proposta}
+	Manter um sistema disponível a todo instante é complexo pois várias falhas podem acontecer, diferentes cargas de processamento podem ser requeridas e este não pode parar por falta de recursos, outros componentes também não poderão ser afetados. A capacidade de aumentar ou reduzir seus recursos conforme utilização e de multiplicar a quantidade de componentes para suprir a demanda deve ser rápida e eficaz.
+
+	A finalidade deste trabalho será construir um sistema distribuído que utilizará \textit{microcontainers} e será composto por múltiplos componentes, com diferentes atribuições e sistemas operacionais, que seja capaz de apresentar os pilares da disponibilidade e confiabilidade a partir da utilização do balanceamento de carga. O sistema deve estar disponível a todo tempo, sendo capaz de migrar seus componentes de forma rápida e transparente ao usuário.
+	
+\subsection{Delimitação do escopo}
+	O trabalho tem como objetivo desenvolver uma aplicação simples em um sistema distribuído criado por \textit{microcontainers} que seja capaz de apresentar os conceitos da disponibilidade e confiabilidade com balanceamento de carga, realizando migrações rápidas e transparentes. Para alcançar os objetivos serão utilizados \textit{microcontainers} com Docker, o sistema será desenvolvido com a linguagem de programação Java e para comunicação entre os componentes o \textit{middleware} CORBA.
+	
+\subsection{Justificativa}
+	A replicação de dados é extremamente importante para tornar o sistema mais confiável e aumentar seu desempenho. Se um sistema de arquivos foi replicado, pode ser possível continuar trabalhando após a queda de uma réplica simplesmente com a comutação para uma das réplicas \cite{Tanenbaum}. Sistemas distribuídos devem também ser capazes de se recuperar automaticamente de falhas parciais sem afetar o restante dos processos.
+	
+	Neste contexto uma aplicação capaz de executar seus processos mesmo na presença de falhas, e que supra a demanda de requisições do cliente é aceitável e eficaz para o conceito de balanceamento de carga. Sendo sua estrutura e construção um forte exemplo para a criação de aplicações mais complexas com disponibilidade e confiabilidade.
+	
+\section{OBJETIVOS}
+\subsection{Objetivo Geral}
+	Desenvolver uma estrutura com \textit{microcontainers} que aplique os conceitos de disponibilidade e confiabilidade utilizando o balanceamento de carga em um sistema de controle financeiro pessoal.
+	
+\subsection{Objetivos Específicos} 
+\begin{enumerate}[label=\alph*]
+	\item Desenvolver uma aplicação simples com interface web, regras de negócio e persistência separados em componentes diferentes;
+	\item Criar estrutura com \textit{microcontainers} que execute a aplicação;
+	\item Aplicar os conceitos de disponibilidade em sistemas distribuídos;
+	\item Aplicar os conceitos de confiabilidade em sistemas distribuídos;
+	\item Utilizar balanceamento de carga, com migração rápida e transparente;
+	\item Realizar testes com alta demanda de clientes e também com falhas forçadas para validar que o sistema é capaz de superar os obstáculos e confirmar que os conceitos aplicados funcionam.
+\end{enumerate}
+
+\section{METODOLOGIA}
+	escrever aqui
+
+\begin{enumerate}
+	\item Revisão Bibliográfica: O trabalho será fundamentado através de orientação profissional e pesquisa em livros, artigos publicados, trabalhos correlatos e monografias sobre Sistemas Distribuídos, CORBA e Docker;
+	\item Estudo sobre Sistemas Distribuídos: Estudo dos fundamentos de sistemas distribuídos, principais conceitos, objetivos e atributos necessários para o desenvolvimento do trabalho;
+	\item Estudo sobre CORBA: Estudo dos principais métodos e configurações necessárias para alcançar o objetivo do trabalho;
+	\item Estudo sobre Docker: Estudo sobre seus conceitos e utilização, desde conceitos básicos até formas avançadas de orquestrar vários \textit{containers};
+	\item Modelagem: Modelagem do sistema através de Diagrama de \textit{Deployment}, Diagrama de Classes e Diagrama de Sequência, tem por finalidade complementar o primeiro objetivo específico.
+	\item Desenvolvimento: Para o desenvolvimento do projeto será utilizado a linguagem de programação Java, o \textit{middleware} CORBA e \textit{microcontainers} Docker.
+	\item Fase de testes: Esta fase consiste em simular uma alta demanda do sistema que deve ser capaz de replicar-se e ser consistente. A simulação de falhas também será necessária para demonstrar que o sistema é capaz de continuar executando até ser corrigido.
+\end{enumerate}

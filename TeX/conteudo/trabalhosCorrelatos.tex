@@ -1,0 +1,37 @@
+\chapter{TRABALHOS CORRELATOS}
+
+\section{Fast Transparent Migration for Virtual Machines}
+	Este trabalho apresenta um modelo de implementação de sistema utilizando máquinas virtuais para realizar migrações de forma rápida e transparente. Foi o primeiro a conseguir migrar sistemas sem nenhuma modificação e sem modificações no sistema operacional, funcionando para Windows, Linux e outros. A migração ocorre com total transparência, sem que nem os clientes e nem a aplicação consiga saber que o local de execução foi alterado.
+	
+	Sistemas com grande demanda podem apresentar lentidão ou falha nos serviços que prestam devido a falta de recursos na máquina em que o processamento está ocorrendo. A migração rápida e transparente é capaz de melhorar a utilização do serviço com o balanceamento de carga, movendo serviços para máquinas com mais recursos livres.
+	
+	O artigo descreve com um exemplo como foi capaz de viabilizar a migração transparente de sistemas com máquinas virtuais, sem a necessidade de efetuar alterações no programa ou no sistema operacional. Foram utilizadas medidas de desempenho de centenas de migrações de máquinas virtuais que utilizam padrões industriais de \textit{benchmark}, uo seja, os padrões mais utilizados na indústria de \textit{software}. Também descreve as necessidades de desempenho e recursos durante a migração.
+	
+	Para executar a migração inicialmente é selecionado a máquina virtual que será migrada e qual seu destino, uma cópia do estado atual da memória da máquina é copiado para o destino enquanto o serviço continua rodando em sua origem, em seguida o estado da máquina virtual é enviado também para finalizar a configuração do novo local. Uma vez que o destino está configurado ele começa a ser executado e o controle da máquina virtual é direcionado ao novo ambiente, para então enviar qualquer resto de estado de memória da máquina origem e removê-la de funcionamento.
+	
+	A utilização de máquinas virtuais foi essencial para o objetivo do artigo, a migração de aplicações era falha pela dificuldade em encapsular o estado de execução e também de manter as configurações do sistema operacional, ambos solucionados com a utilização de máquinas virtuais. A migração da memória física é o fator essencial para alcançar a transparência, apesar de tornar o processo mais lento ela faz com que a aplicação fique menos tempo fora do ar, menos de um segundo de acordo com os testes.
+	
+\section{LOAD BALANCING ALGORITHM TO IMPROVE RESPONSE TIME ON CLOUD COMPUTING}
+	Balanceamento de carga na nuvem está relacionado a alocação de recursos computacionais para máquinas virtuais de forma que as aplicações ali executadas não falhem por falta de recursos e evitando lentidão para o cliente. A melhor prática para realizar o balanceamento de carga na nuvem irá depender da requisição efetuada que pode ser SaaS (\textit{Software as a Service}), PaaS (\textit{Platform as a Service}) ou IaaS (\textit{Infrastructure as a Service}).
+	
+	Este artigo propôs um algoritmo de balanceamento de carga para máquinas virtuais que busca aumentar o tempo médio de resposta e o tempo médio de processamento dos sistemas na nuvem, o algoritmo foi comparado aos já conhecidos algoritmos Maxmin, \textit{Throttled} e \textit{Avoid Deadlocks} para avaliar os resultados.
+	
+	Algoritmos dos autores Rashmi, Rajwinder e Hafiz foram utilizados como base de conhecimento, estes já buscavam otimizar o tempo médio de resposta e processamento no balanceamento de carga em máquinas virtuais. 
+	
+	A máquina virtual com maior disponibilidade e velocidade para completar a tarefa será selecionada a partir de certo parâmetros: lista da carga de trabalho do sistema, lista de tarefas já submetidas a execução, percentual já utilizado da máquina e o tempo de execução esperado virtual. 
+	
+	Os testes foram realizados com trinta tarefas a serem executadas, uma central de dados e três máquinas virtuais. Comparando ao algoritmo Throttled os tempos médios de execução e resposta foram inferiores no algoritmo desenvolvido, demonstrando a efetividade do mesmo.
+	
+	O algoritmo Throttled tem seu foco principal a quantidade de carga que uma máquina virtual tem, porém em ambientes na nuvem o poder de processamento de carga é heterogêneo, cada máquina virtual pode ter diferentes custos de tempo para execução. Para um melhor balanceamento o ideal é utilizar o tempo que será gasto para executar as tarefas como principal parâmetro, este foi o diferencial que tornou o algoritmo proposto superior ao Throttled.
+
+\section{Methods and apparatus for performing dynamic load balancing of processing resources}
+	O artigo apresenta uma forma de alocar recursos de processamento para requisições de rede utilizando balanceamento de carga automático sem uma pré configuração manual. Balanceamento de carga refere-se a distribuição de requisições de rede para diferentes servidores, de forma que todos consigam executar sem sobrecarga, garantindo disponibilidade e maior confiabilidade.
+	
+	Normalmente o balanceamento de carga é estático, feito por um programador que manualmente faz a programação ou configura um \textit{hardware} para isso. O administrador do sistema é responsável por definir um modelo de balanceamento, que pode ser \textit{Round Robin}, \textit{Least Loaded} ou \textit{Least Busy}. Em casos onde a configuração definida não estiver sendo efetiva, o próprio administrador terá que acessar o sistema e alterar as configurações, o grande problema é que isso não será feito diariamente, ajustar as configurações para melhorar a performance costumam ocorrer uma vez por semana ou por mês, demonstrando que a configuração manual não é a ideal para adaptação de mudanças em tempo real.
+	
+	O objetivo do artigo é a apresentação de um algoritmo de balanceamento de carga automático, para tal existe um computador com um \textit{software} que será responsável por receber requisições e distribuir estas da melhor maneira entre os componentes de processamento. Antes de mais nada, cada componente de processamento irá enviar uma requisição de registro para o servidor central, todas as máquinas serão registras em conjunto de informações como: métricas operacionais, largura de banda, portas de rede utilizadas, memória utilizada, processamento utilizado, cache do sistema operacional, quantidade de operações realizadas pelo processador em um determinado período de tempo, etc.
+	
+	Ao receber uma requisição de um cliente, o servidor irá utilizar os dados obtidos dos componentes registrados e repassar a tarefa ao que melhor se apresentar. Em caso de um componente estar com dificuldades em processar uma tarefa, ele pode requisitar ao servidor central que distribua a carga tarefa entre mais componentes, ou então, redefinir o método de balanceamento para atribuir a tarefa a um componente com melhores condições.
+	
+	
+	

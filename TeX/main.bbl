@@ -1,0 +1,39 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{v-1.9.6 }
+
+\bibitem[Coulouris 2012]{Coulouris-2012}
+\abntrefinfo{Coulouris}{COULOURIS}{2012}
+{COULOURIS, George. \textbf{Distributed Systems concepts and design}. 5.ed. ed.
+  [S.l.]: Pearson Education, 2012.}
+
+\bibitem[Hane 2015]{Hane}
+\abntrefinfo{Hane}{HANE}{2015}
+{HANE, Oskar. \textbf{Build Your Own PaaS with Docker}. Birmingham, UK: [s.n.],
+  2015.}
+
+\bibitem[Khandekar e Jeyakeerthi 2015]{Khandekar}
+\abntrefinfo{Khandekar e Jeyakeerthi}{KHANDEKAR; JEYAKEERTHI}{2015}
+{KHANDEKAR, Milind~M.; JEYAKEERTHI, Jeyappragash~J. \textbf{Methods and
+  Apparatus for Performing Dynamic Load Balancing of Processing Resources}.
+  2015.}
+
+\bibitem[Nelson, Lim e Hutchins 2005]{Nelson-VM-Migration}
+\abntrefinfo{Nelson, Lim e Hutchins}{NELSON; LIM; HUTCHINS}{2005}
+{NELSON, Michael; LIM, Beng-Hong; HUTCHINS, Greg. \textbf{Fast Transparent
+  Migration for Virtual Machines}. 2005.}
+
+\bibitem[Phi e Hung 2017]{Phi-Load-Balance}
+\abntrefinfo{Phi e Hung}{PHI; HUNG}{2017}
+{PHI, Nguyen~Xuan; HUNG, Tran~Cong. \textbf{Load Balancing Algorithm to Improve
+  Response Time on Cloud Computing}. 2017.}
+
+\bibitem[Tanenbaum 2007]{Tanenbaum}
+\abntrefinfo{Tanenbaum}{TANENBAUM}{2007}
+{TANENBAUM, Andrew~S. \textbf{Sistemas Distribuídos princípios e paradigmas}.
+  Second. São Paulo: [s.n.], 2007.}
+
+\end{thebibliography}
