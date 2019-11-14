@@ -2,10 +2,10 @@
 	Neste capítulo são descritas as especificações formais da estrutura proposta. São descritos os requisitos funcionais e não funcionais buscados no desenvolvimento da aplicação, além das especificações do projeto por meio de diagrama de \textit{deployment}, diagramas de classe, diagrama de sequência e diagrama de atividades.
 	
 \section{Descrição da Aplicação}
-	A aplicação proposta neste trabalho servirá apenas como exemplo para o objetivo principal que é o balanceamento de carga. A aplicação é consiste em um controle de finanças pessoais, com a possibilidade de registrar proventos e despesas. Para o balanceamento de carga será preparada uma estrutura utilizando \textit{containers}, separando em três camadas, a camada de persistência de dados, a camada de regra de negócio e a camada de interface \textit{web}.
+	A aplicação proposta neste trabalho servirá apenas como exemplo para o objetivo principal que é o balanceamento de carga. A aplicação é consiste em um controle de finanças pessoais, com a possibilidade de registrar proventos e despesas. Para o balanceamento de carga será preparada uma estrutura utilizando \textit{containers}, separando em três camadas: persistência de dados, regra de negócio e interface \textit{web}.
 	
 \section{Requisitos}
-	A seguir são apresentados os requisitos que devem ser atendidos pela aplicação desenvolvida. Os requisitos que devem ser atendidos pela aplicação desenvolvida são listados nos Quadros \ref{Req-Func} e \ref{Req-Nao-Func}
+	A seguir são apresentados os requisitos que devem ser atendidos pela aplicação desenvolvida. Os requisitos funcionais que devem ser atendidos pela aplicação desenvolvida são listados no Quadro \ref{Req-Func} e os não funcionais no Quadro \ref{Req-Nao-Func}
 	
 	\begin{table}[h]
 		\caption{Requisitos Funcionais}
@@ -30,7 +30,7 @@
 		\begin{tabular}{|l|}
 			\hline
 			\textbf{REQUISITOS NÃO FUNCIONAIS} \\ \hline
-			RNF0: O sistema deve estar no ar 24 horas por dia, 7 dias por semana \\ \hline
+			RNF0: O sistema deve estar no ar 24 horas por dia \\ \hline
 			RNF1: O sistema deve separar interface, regras de negócio e persistência em \textit{containers} diferentes \\ \hline
 			RNF2: O sistema deve aplicar balanceamento de carga \\ \hline
 			RNF3: O sistema deve desenvolver as regras de negócio com a linguagem Java na versão 8\\ \hline
@@ -56,8 +56,8 @@
 	\end{figure}
 
 \subsection{Diagrama de Classe}
-	As classes que compõem o sistema desenvolvido, bem como as relações entre cada classe são mostradas
-	na Figura \ref{Diagrama-Classe}, este diagrama serve também para a modelagem do \textit{middleware}.
+	As classes que compõem o sistema desenvolvido, bem como as relações entre cada classe, são apresentadas
+	na Figura \ref{Diagrama-Classe} e servem também para a modelagem do \textit{middleware}.
 	
 	\begin{figure}[!htb]
 		\caption{Diagrama de Classe}
@@ -69,7 +69,7 @@
 	\end{figure}
 
 \subsection{Diagramas de Sequência}
-	Os diagramas de sequência das figuras \ref{SeqUser}, \ref{SeqSystem}, \ref{SeqQuestion} apresentam os fluxos básicos da aplicação.
+	Os diagramas de sequência das figuras \ref{SeqUser}, \ref{SeqSystem} e \ref{SeqQuestion} apresentam os fluxos básicos da aplicação.
 	
 	\begin{figure}[!htb]
 		\caption{Diagrama de Sequência de adição de usuário}
