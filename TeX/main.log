@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.15)  14 NOV 2019 00:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.15)  18 NOV 2019 00:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1403,16 +1403,6 @@ Overfull \hbox (28.34668pt too wide) in paragraph at lines 30--41
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<images/DeploymentDiagram.png, id=253, 1041.8925pt x 533.74406pt>
-File: images/DeploymentDiagram.png Graphic file (type png)
-<use images/DeploymentDiagram.png>
-Package pdftex.def Info: images/DeploymentDiagram.png  used on input line 55.
-(pdftex.def)             Requested size: 398.33858pt x 204.06277pt.
-
-Overfull \hbox (227.62206pt too wide) in paragraph at lines 55--55
-[][]
- []
-
 [22
 
 
@@ -1422,94 +1412,106 @@ as been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.56 	\end{figure}
-                  ]
-<images/ClassDiagram.png, id=259, 481.8pt x 491.58656pt>
+l.48 
+     ]
+<images/DeploymentDiagram.png, id=257, 1041.8925pt x 533.74406pt>
+File: images/DeploymentDiagram.png Graphic file (type png)
+<use images/DeploymentDiagram.png>
+Package pdftex.def Info: images/DeploymentDiagram.png  used on input line 57.
+(pdftex.def)             Requested size: 398.33858pt x 204.06277pt.
+
+Overfull \hbox (227.62206pt too wide) in paragraph at lines 57--57
+[][]
+ []
+
+[23pdfTeX warning (ext4): destination with the same identifier (name{table.4.3}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.64 	A
+       s classes \textit{Transaction, Tag} e \textit{Period} servem para arm...
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4.4}) 
+has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.64 	A
+       s classes \textit{Transaction, Tag} e \textit{Period} servem para arm...
+ <./images/DeploymentDiagram.png>]
+<images/ClassDiagram.png, id=265, 814.54312pt x 439.6425pt>
 File: images/ClassDiagram.png Graphic file (type png)
 <use images/ClassDiagram.png>
-Package pdftex.def Info: images/ClassDiagram.png  used on input line 68.
-(pdftex.def)             Requested size: 284.52756pt x 290.3111pt.
+Package pdftex.def Info: images/ClassDiagram.png  used on input line 72.
+(pdftex.def)             Requested size: 284.52756pt x 153.56859pt.
 
-Overfull \hbox (113.81104pt too wide) in paragraph at lines 68--68
+Overfull \hbox (113.81104pt too wide) in paragraph at lines 72--72
 [][]
  []
 
-<images/SequenceDiagramNewUser.png, id=263, 563.85657pt x 435.12563pt>
-File: images/SequenceDiagramNewUser.png Graphic file (type png)
-<use images/SequenceDiagramNewUser.png>
-Package pdftex.def Info: images/SequenceDiagramNewUser.png  used on input line 
-80.
-(pdftex.def)             Requested size: 284.52756pt x 219.5674pt.
+<images/SequenceDiagramNewTag.png, id=270, 735.49782pt x 551.05875pt>
+File: images/SequenceDiagramNewTag.png Graphic file (type png)
+<use images/SequenceDiagramNewTag.png>
+Package pdftex.def Info: images/SequenceDiagramNewTag.png  used on input line 8
+6.
+(pdftex.def)             Requested size: 284.52756pt x 213.17989pt.
 
-Overfull \hbox (113.81104pt too wide) in paragraph at lines 80--80
+Overfull \hbox (113.81104pt too wide) in paragraph at lines 86--86
 [][]
  []
 
-<images/SequenceDiagramNewSystem.png, id=264, 590.95781pt x 435.12563pt>
-File: images/SequenceDiagramNewSystem.png Graphic file (type png)
-<use images/SequenceDiagramNewSystem.png>
-Package pdftex.def Info: images/SequenceDiagramNewSystem.png  used on input lin
-e 89.
-(pdftex.def)             Requested size: 284.52756pt x 209.50195pt.
+<images/SequenceDiagramNewPeriod.png, id=272, 682.04813pt x 551.05875pt>
+File: images/SequenceDiagramNewPeriod.png Graphic file (type png)
+<use images/SequenceDiagramNewPeriod.png>
+Package pdftex.def Info: images/SequenceDiagramNewPeriod.png  used on input lin
+e 97.
+(pdftex.def)             Requested size: 284.52756pt x 229.88751pt.
 
-Overfull \hbox (113.81104pt too wide) in paragraph at lines 89--89
+Overfull \hbox (113.81104pt too wide) in paragraph at lines 97--97
 [][]
  []
 
-<images/SequenceDiagramNewQuestion.png, id=265, 527.72156pt x 507.39563pt>
-File: images/SequenceDiagramNewQuestion.png Graphic file (type png)
-<use images/SequenceDiagramNewQuestion.png>
-Package pdftex.def Info: images/SequenceDiagramNewQuestion.png  used on input l
-ine 98.
-(pdftex.def)             Requested size: 284.52756pt x 273.56374pt.
+<images/SequenceDiagramNewTransaction.png, id=274, 602.25pt x 742.27313pt>
+File: images/SequenceDiagramNewTransaction.png Graphic file (type png)
+<use images/SequenceDiagramNewTransaction.png>
+Package pdftex.def Info: images/SequenceDiagramNewTransaction.png  used on inpu
+t line 108.
+(pdftex.def)             Requested size: 284.52756pt x 350.69194pt.
 
-Overfull \hbox (113.81104pt too wide) in paragraph at lines 98--98
+Overfull \hbox (113.81104pt too wide) in paragraph at lines 108--108
 [][]
  []
 
-) [23pdfTeX warning (ext4): destination with the same identifier (name{table.4.
-3}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.115 \include{conteudo/especificacoesFormais}
-                                              pdfTeX warning (ext4): destinatio
-n with the same identifier (name{figure.4.4}) has been already used, duplicate 
-ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.115 \include{conteudo/especificacoesFormais}
-                                               <./images/DeploymentDiagram.png>
-] [24pdfTeX warning (ext4): destination with the same identifier (name{figure.4
+) [24pdfTeX warning (ext4): destination with the same identifier (name{figure.4
 .5}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.115 \include{conteudo/especificacoesFormais}
-                                              pdfTeX warning (ext4): destinatio
-n with the same identifier (name{figure.4.6}) has been already used, duplicate 
-ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.115 \include{conteudo/especificacoesFormais}
-                                               <./images/ClassDiagram.png> <./i
-mages/SequenceDiagramNewUser.png>] [25pdfTeX warning (ext4): destination with t
-he same identifier (name{figure.4.7}) has been already used, duplicate ignored
+                                               <./images/ClassDiagram.png>]
+[25pdfTeX warning (ext4): destination with the same identifier (name{figure.4.6
+}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.115 \include{conteudo/especificacoesFormais}
                                               pdfTeX warning (ext4): destinatio
-n with the same identifier (name{figure.4.8}) has been already used, duplicate 
+n with the same identifier (name{figure.4.7}) has been already used, duplicate 
 ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.115 \include{conteudo/especificacoesFormais}
-                                               <./images/SequenceDiagramNewSyst
-em.png> <./images/SequenceDiagramNewQuestion.png>] (./main.bbl (./main.brf)
+                                               <./images/SequenceDiagramNewTag.
+png> <./images/SequenceDiagramNewPeriod.png>] [26pdfTeX warning (ext4): destina
+tion with the same identifier (name{figure.4.8}) has been already used, duplica
+te ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.115 \include{conteudo/especificacoesFormais}
+                                               <./images/SequenceDiagramNewTran
+saction.png>] (./main.bbl (./main.brf)
 \tf@brf=\write5
 \openout5 = `main.brf'.
 
@@ -1525,7 +1527,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 bibitemlist
 ) 
 AED: lastpage setting LastPage
-[26
+[27
 
 
 ]
@@ -1554,9 +1556,9 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 146.
  ) 
 Here is how much of TeX's memory you used:
- 12590 strings out of 494862
- 181066 string characters out of 6178945
- 415417 words of memory out of 5000000
+ 12591 strings out of 494862
+ 181085 string characters out of 6178945
+ 415427 words of memory out of 5000000
  15559 multiletter control sequences out of 15000+600000
  28737 words of font info for 48 fonts, out of 8000000 for 9000
  38 hyphenation exceptions out of 8191
@@ -1566,10 +1568,10 @@ e/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fo
 nts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/
 times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.p
 fb>
-Output written on main.pdf (27 pages, 422415 bytes).
+Output written on main.pdf (28 pages, 467930 bytes).
 PDF statistics:
- 428 PDF objects out of 1000 (max. 8388607)
- 366 compressed objects within 4 object streams
- 91 named destinations out of 1000 (max. 500000)
+ 435 PDF objects out of 1000 (max. 8388607)
+ 372 compressed objects within 4 object streams
+ 92 named destinations out of 1000 (max. 500000)
  322 words of extra memory for PDF output out of 10000 (max. 10000000)
 
