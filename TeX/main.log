@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.15)  18 NOV 2019 00:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.15)  18 NOV 2019 20:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1045,7 +1045,8 @@ Writing index file main.idx
 
 (./pretextuais/capa.tex) (./main.aux (./pretextuais/folhadeaprovacao.aux)
 (./conteudo/introducao.aux) (./conteudo/fundamentacaoTeorica.aux)
-(./conteudo/trabalhosCorrelatos.aux) (./conteudo/especificacoesFormais.aux))
+(./conteudo/trabalhosCorrelatos.aux) (./conteudo/especificacoesFormais.aux)
+(./conteudo/desenvolvimento.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
@@ -1278,16 +1279,16 @@ IME ON
 
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <12> not available
 (Font)              Font shape `T1/ptm/b/it' tried instead on input line 27.
-) [5
+[5
 
-]
+]) [6]
 \openout2 = `conteudo/introducao.aux'.
 
- (./conteudo/introducao.tex [6
+ (./conteudo/introducao.tex [7
 
 
 
-] [7] [8]) [9]
+] [8] [9]) [10]
 \openout2 = `conteudo/fundamentacaoTeorica.aux'.
 
 
@@ -1296,12 +1297,12 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <12> not available
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 20.
 
-[10
+[11
 
 
 
 ]
-<images/middleware.jpeg, id=187, 536.75531pt x 220.57407pt>
+<images/middleware.jpeg, id=195, 536.75531pt x 220.57407pt>
 File: images/middleware.jpeg Graphic file (type jpg)
 <use images/middleware.jpeg>
 Package pdftex.def Info: images/middleware.jpeg  used on input line 58.
@@ -1317,21 +1318,21 @@ Overfull \hbox (7.26889pt too wide) in paragraph at lines 61--62
 mam se-guir um es-tilo ar-qui-tetô-nico es-pe-cí-fico, CORBA
  []
 
-[11pdfTeX warning (ext4): destination with the same identifier (name{table.2.1}
+[12pdfTeX warning (ext4): destination with the same identifier (name{table.2.1}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.63 	A
         orientaÃ§Ã£o a objetos Ã© um conceito forte no desenvolvimento de \t...
-] [12pdfTeX warning (ext4): destination with the same identifier (name{figure.2
+] [13pdfTeX warning (ext4): destination with the same identifier (name{figure.2
 .1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.72 
-      <./images/middleware.jpeg>] [13] [14] [15]
-<images/container_x_vm.png, id=216, 922.44624pt x 376.40625pt>
+      <./images/middleware.jpeg>] [14] [15] [16]
+<images/container_x_vm.png, id=224, 922.44624pt x 376.40625pt>
 File: images/container_x_vm.png Graphic file (type png)
 <use images/container_x_vm.png>
 Package pdftex.def Info: images/container_x_vm.png  used on input line 126.
@@ -1351,14 +1352,14 @@ Overfull \hbox (20.86142pt too wide) in paragraph at lines 126--126
 \T1/ptm/m/n/10 https://www.docker.com/resources/what-
  []
 
-[16pdfTeX warning (ext4): destination with the same identifier (name{figure.2.2
+[17pdfTeX warning (ext4): destination with the same identifier (name{figure.2.2
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.133 
        <./images/container_x_vm.png>]
-<images/docker-daemon.png, id=226, 764.8575pt x 408.52625pt>
+<images/docker-daemon.png, id=234, 764.8575pt x 408.52625pt>
 File: images/docker-daemon.png Graphic file (type png)
 <use images/docker-daemon.png>
 Package pdftex.def Info: images/docker-daemon.png  used on input line 142.
@@ -1373,21 +1374,21 @@ Overfull \hbox (20.86142pt too wide) in paragraph at lines 142--142
 []\T1/ptm/m/n/10 https://www.docker.com/resources/what-
  []
 
-[17pdfTeX warning (ext4): destination with the same identifier (name{figure.2.3
+[18pdfTeX warning (ext4): destination with the same identifier (name{figure.2.3
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.146 
-       <./images/docker-daemon.png>]) [18]
+       <./images/docker-daemon.png>]) [19]
 \openout2 = `conteudo/trabalhosCorrelatos.aux'.
 
  (./conteudo/trabalhosCorrelatos.tex
-[19
+[20
 
 
 
-] [20]) [21]
+] [21]) [22]
 \openout2 = `conteudo/especificacoesFormais.aux'.
 
  (./conteudo/especificacoesFormais.tex
@@ -1403,7 +1404,7 @@ Overfull \hbox (28.34668pt too wide) in paragraph at lines 30--41
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[22
+[23
 
 
 
@@ -1414,7 +1415,7 @@ as been already used, duplicate ignored
                                                   \fi \fi 
 l.48 
      ]
-<images/DeploymentDiagram.png, id=257, 1041.8925pt x 533.74406pt>
+<images/DeploymentDiagram.png, id=265, 1041.8925pt x 533.74406pt>
 File: images/DeploymentDiagram.png Graphic file (type png)
 <use images/DeploymentDiagram.png>
 Package pdftex.def Info: images/DeploymentDiagram.png  used on input line 57.
@@ -1424,7 +1425,7 @@ Overfull \hbox (227.62206pt too wide) in paragraph at lines 57--57
 [][]
  []
 
-[23pdfTeX warning (ext4): destination with the same identifier (name{table.4.3}
+[24pdfTeX warning (ext4): destination with the same identifier (name{table.4.3}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -1439,7 +1440,7 @@ has been already used, duplicate ignored
 l.64 	A
        s classes \textit{Transaction, Tag} e \textit{Period} servem para arm...
  <./images/DeploymentDiagram.png>]
-<images/ClassDiagram.png, id=265, 814.54312pt x 439.6425pt>
+<images/ClassDiagram.png, id=274, 814.54312pt x 439.6425pt>
 File: images/ClassDiagram.png Graphic file (type png)
 <use images/ClassDiagram.png>
 Package pdftex.def Info: images/ClassDiagram.png  used on input line 72.
@@ -1449,7 +1450,7 @@ Overfull \hbox (113.81104pt too wide) in paragraph at lines 72--72
 [][]
  []
 
-<images/SequenceDiagramNewTag.png, id=270, 735.49782pt x 551.05875pt>
+<images/SequenceDiagramNewTag.png, id=279, 735.49782pt x 551.05875pt>
 File: images/SequenceDiagramNewTag.png Graphic file (type png)
 <use images/SequenceDiagramNewTag.png>
 Package pdftex.def Info: images/SequenceDiagramNewTag.png  used on input line 8
@@ -1460,7 +1461,7 @@ Overfull \hbox (113.81104pt too wide) in paragraph at lines 86--86
 [][]
  []
 
-<images/SequenceDiagramNewPeriod.png, id=272, 682.04813pt x 551.05875pt>
+<images/SequenceDiagramNewPeriod.png, id=281, 682.04813pt x 551.05875pt>
 File: images/SequenceDiagramNewPeriod.png Graphic file (type png)
 <use images/SequenceDiagramNewPeriod.png>
 Package pdftex.def Info: images/SequenceDiagramNewPeriod.png  used on input lin
@@ -1471,7 +1472,7 @@ Overfull \hbox (113.81104pt too wide) in paragraph at lines 97--97
 [][]
  []
 
-<images/SequenceDiagramNewTransaction.png, id=274, 602.25pt x 742.27313pt>
+<images/SequenceDiagramNewTransaction.png, id=283, 602.25pt x 742.27313pt>
 File: images/SequenceDiagramNewTransaction.png Graphic file (type png)
 <use images/SequenceDiagramNewTransaction.png>
 Package pdftex.def Info: images/SequenceDiagramNewTransaction.png  used on inpu
@@ -1482,14 +1483,14 @@ Overfull \hbox (113.81104pt too wide) in paragraph at lines 108--108
 [][]
  []
 
-) [24pdfTeX warning (ext4): destination with the same identifier (name{figure.4
+) [25pdfTeX warning (ext4): destination with the same identifier (name{figure.4
 .5}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.115 \include{conteudo/especificacoesFormais}
                                                <./images/ClassDiagram.png>]
-[25pdfTeX warning (ext4): destination with the same identifier (name{figure.4.6
+[26pdfTeX warning (ext4): destination with the same identifier (name{figure.4.6
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -1503,7 +1504,7 @@ ignored
                                                   \fi \fi 
 l.115 \include{conteudo/especificacoesFormais}
                                                <./images/SequenceDiagramNewTag.
-png> <./images/SequenceDiagramNewPeriod.png>] [26pdfTeX warning (ext4): destina
+png> <./images/SequenceDiagramNewPeriod.png>] [27pdfTeX warning (ext4): destina
 tion with the same identifier (name{figure.4.8}) has been already used, duplica
 te ignored
 
@@ -1511,7 +1512,14 @@ te ignored
                                                   \fi \fi 
 l.115 \include{conteudo/especificacoesFormais}
                                                <./images/SequenceDiagramNewTran
-saction.png>] (./main.bbl (./main.brf)
+saction.png>]
+\openout2 = `conteudo/desenvolvimento.aux'.
+
+ (./conteudo/desenvolvimento.tex) [28
+
+
+
+] (./main.bbl (./main.brf)
 \tf@brf=\write5
 \openout5 = `main.brf'.
 
@@ -1527,7 +1535,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 bibitemlist
 ) 
 AED: lastpage setting LastPage
-[27
+[29
 
 
 ]
@@ -1544,11 +1552,12 @@ Package atveryend Info: Empty hook `BeforeClearDocument' on input line 146.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 146.
  (./main.aux (./pretextuais/folhadeaprovacao.aux)
 (./conteudo/introducao.aux) (./conteudo/fundamentacaoTeorica.aux)
-(./conteudo/trabalhosCorrelatos.aux) (./conteudo/especificacoesFormais.aux))
+(./conteudo/trabalhosCorrelatos.aux) (./conteudo/especificacoesFormais.aux)
+(./conteudo/desenvolvimento.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 146.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 146.
 Package rerunfilecheck Info: File `main.brf' has not changed.
-(rerunfilecheck)             Checksum: 950FEF0A9C3B67349D7099F253E7BA51;898.
+(rerunfilecheck)             Checksum: CE8313D14A09FAE88C31F5A25426BFB5;898.
 
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
@@ -1556,10 +1565,10 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 146.
  ) 
 Here is how much of TeX's memory you used:
- 12591 strings out of 494862
- 181085 string characters out of 6178945
- 415427 words of memory out of 5000000
- 15559 multiletter control sequences out of 15000+600000
+ 12607 strings out of 494862
+ 181415 string characters out of 6178945
+ 416699 words of memory out of 5000000
+ 15564 multiletter control sequences out of 15000+600000
  28737 words of font info for 48 fonts, out of 8000000 for 9000
  38 hyphenation exceptions out of 8191
  44i,13n,35p,840b,480s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1568,10 +1577,10 @@ e/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fo
 nts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/
 times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.p
 fb>
-Output written on main.pdf (28 pages, 467930 bytes).
+Output written on main.pdf (30 pages, 469776 bytes).
 PDF statistics:
- 435 PDF objects out of 1000 (max. 8388607)
- 372 compressed objects within 4 object streams
- 92 named destinations out of 1000 (max. 500000)
- 322 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 453 PDF objects out of 1000 (max. 8388607)
+ 388 compressed objects within 4 object streams
+ 96 named destinations out of 1000 (max. 500000)
+ 338 words of extra memory for PDF output out of 10000 (max. 10000000)
 
