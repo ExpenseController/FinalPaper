@@ -5,14 +5,31 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{v-1.9.6 }
 
+\bibitem[Balen, Elenko e Jones 2000]{Balen-Elenko-Jones-Palumbo}
+\abntrefinfo{Balen, Elenko e Jones}{BALEN; ELENKO; JONES}{2000}
+{BALEN, Henry; ELENKO, Mark; JONES, Jan. \textbf{Distributed Object
+  Architectures with CORBA}. [S.l.]: Cambridge University Press :, SIGS Books,
+  2000.  (Managing object technology series 21).}
+
 \bibitem[Coulouris 2012]{Coulouris-2012}
 \abntrefinfo{Coulouris}{COULOURIS}{2012}
 {COULOURIS, George. \textbf{Distributed Systems concepts and design}. 5.ed. ed.
   [S.l.]: Pearson Education, 2012.}
 
+\bibitem[Goasguen 2015]{Goasguen}
+\abntrefinfo{Goasguen}{GOASGUEN}{2015}
+{GOASGUEN, Sebastien. \textbf{Docker Cookbook: Solutions and Examples for
+  Building Distributed Applications}. [S.l.]: O'Reilly Media, 2015.}
+
 \bibitem[Hane 2015]{Hane}
 \abntrefinfo{Hane}{HANE}{2015}
 {HANE, Oskar. \textbf{Build Your Own PaaS with Docker}. Birmingham, UK: [s.n.],
+  2015.}
+
+\bibitem[Holla 2015]{Holla}
+\abntrefinfo{Holla}{HOLLA}{2015}
+{HOLLA, Shrikrishna. \textbf{Orchestrating Docker: Manage and deploy Docker
+  services to containerize applications efficiently}. [S.l.]: Packt Publishing,
   2015.}
 
 \bibitem[Khandekar e Jeyakeerthi 2015]{Khandekar}
@@ -26,14 +43,29 @@
 {NELSON, Michael; LIM, Beng-Hong; HUTCHINS, Greg. \textbf{Fast Transparent
   Migration for Virtual Machines}. 2005.}
 
+\bibitem[Pfleeger 2004]{Pfleeger}
+\abntrefinfo{Pfleeger}{PFLEEGER}{2004}
+{PFLEEGER, Shari~Lawrence. \textbf{Engenharia de software: teoria e prática}.
+  2. ed. [S.l.]: Ed. São Paulo, 2004.}
+
 \bibitem[Phi e Hung 2017]{Phi-Load-Balance}
 \abntrefinfo{Phi e Hung}{PHI; HUNG}{2017}
 {PHI, Nguyen~Xuan; HUNG, Tran~Cong. \textbf{Load Balancing Algorithm to Improve
   Response Time on Cloud Computing}. 2017.}
 
+\bibitem[Pressman 2011]{Pressman}
+\abntrefinfo{Pressman}{PRESSMAN}{2011}
+{PRESSMAN, S.~R. \textbf{Engenharia de Software Uma Abordagem Profissional}. 1.
+  ed. [S.l.: s.n.], 2011.}
+
 \bibitem[Tanenbaum 2007]{Tanenbaum}
 \abntrefinfo{Tanenbaum}{TANENBAUM}{2007}
 {TANENBAUM, Andrew~S. \textbf{Sistemas Distribuídos princípios e paradigmas}.
   Second. São Paulo: [s.n.], 2007.}
+
+\bibitem[Tari 2001]{Tari-Bukhres}
+\abntrefinfo{Tari}{TARI}{2001}
+{TARI, Omran~Bukhres Zahir. \textbf{Fundamentals of Distributed Object Systems:
+  The CORBA Perspective}. [S.l.]: Wiley-Interscience, 2001.}
 
 \end{thebibliography}

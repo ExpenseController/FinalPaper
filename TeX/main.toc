@@ -20,13 +20,16 @@
 \contentsline {section}{\numberline {3.1}Fast Transparent Migration for Virtual Machines}{20}{section.3.1}
 \contentsline {section}{\numberline {3.2}LOAD BALANCING ALGORITHM TO IMPROVE RESPONSE TIME ON CLOUD COMPUTING}{21}{section.3.2}
 \contentsline {section}{\numberline {3.3}Methods and apparatus for performing dynamic load balancing of processing resources}{21}{section.3.3}
-\contentsline {chapter}{\chapternumberline {4}ESPECIFICA\IeC {\c C}\IeC {\~O}ES FORMAIS}{23}{chapter.4}
-\contentsline {section}{\numberline {4.1}Descri\IeC {\c c}\IeC {\~a}o da Aplica\IeC {\c c}\IeC {\~a}o}{23}{section.4.1}
-\contentsline {section}{\numberline {4.2}Requisitos}{23}{section.4.2}
-\contentsline {section}{\numberline {4.3}Especifica\IeC {\c c}\IeC {\~o}es}{23}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Diagrama de \textit {Deployment}}{24}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}Diagrama de Classe}{25}{subsection.4.3.2}
-\contentsline {subsection}{\numberline {4.3.3}Diagramas de Sequ\IeC {\^e}ncia}{25}{subsection.4.3.3}
-\contentsline {chapter}{\chapternumberline {5}DESENVOLVIMENTO}{28}{chapter.5}
-\contentsline {section}{\numberline {5.1}Exposi\IeC {\c c}\IeC {\~a}o do Tema ou Mat\IeC {\'e}ria}{28}{section.5.1}
+\contentsline {section}{\numberline {3.4}Strategies for CORBA Middleware-Based Load Balancing}{22}{section.3.4}
+\contentsline {chapter}{\chapternumberline {4}DESENVOLVIMENTO}{24}{chapter.4}
+\contentsline {section}{\numberline {4.1}ESPECIFICA\IeC {\c C}\IeC {\~O}ES FORMAIS}{24}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Descri\IeC {\c c}\IeC {\~a}o da Aplica\IeC {\c c}\IeC {\~a}o}{24}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Requisitos}{24}{subsection.4.1.2}
+\contentsline {subsubsection}{\numberline {4.1.2.1}Requisitos Funcionais}{24}{subsubsection.4.1.2.1}
+\contentsline {subsubsection}{\numberline {4.1.2.2}Requisitos N\IeC {\~a}o Funcionais}{24}{subsubsection.4.1.2.2}
+\contentsline {subsection}{\numberline {4.1.3}Especifica\IeC {\c c}\IeC {\~o}es}{25}{subsection.4.1.3}
+\contentsline {subsubsection}{\numberline {4.1.3.1}Diagrama de \textit {Deployment}}{25}{subsubsection.4.1.3.1}
+\contentsline {subsubsection}{\numberline {4.1.3.2}Diagrama de Classe}{26}{subsubsection.4.1.3.2}
+\contentsline {subsubsection}{\numberline {4.1.3.3}Diagramas de Sequ\IeC {\^e}ncia}{27}{subsubsection.4.1.3.3}
+\contentsline {section}{\numberline {4.2}Exposi\IeC {\c c}\IeC {\~a}o do Tema ou Mat\IeC {\'e}ria}{27}{section.4.2}
 \contentsline {chapter}{\indent \hspace {\cftparagraphnumwidth } {\hspace {-0.1cm}\uppercase {Refer\^encias}} }{29}{section*.3}
